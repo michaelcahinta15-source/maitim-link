@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://github.com/michaelcahinta15-source/Maitimm/releases/download/Maitimm/Maitim.exe">
   <title>Maitim Download</title>
+  <style>
+    body { background: #1c0b2b; color: #f3e6ff; font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin:0; }
+    a { color: #b44de0; }
+  </style>
 </head>
 <body>
-  <p>Your download should start automatically.  
-     If it doesn't, <a href="https://github.com/michaelcahinta15-source/Maitimm/releases/download/Maitimm/Maitim.exe">click here</a>.</p>
+  <h1>Maitim Scanner</h1>
+  <p>Your download should start automatically.</p>
+  <p>If it doesn't, <a href="https://github.com/michaelcahinta15-source/Maitimm/releases/download/Maitimm/Maitim.exe">click here</a>.</p>
+  <script>
+    // Trigger download without navigating away
+    window.onload = function() {
+      var link = document.getElementById('direct-link').href;
+      window.location.href = link;
+    };
+  </script>
 </body>
 </html>
